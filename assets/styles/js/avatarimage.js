@@ -1,6 +1,4 @@
 var direction = 4;
-           
-console.log("HEY :D");
 		   
 function openNav(point) {
     var mainNavigationObjects = document.getElementsByClassName('mainNav');   
