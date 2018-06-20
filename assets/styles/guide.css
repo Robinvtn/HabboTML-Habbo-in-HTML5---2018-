@@ -1,0 +1,155 @@
+#infoguide {
+	top: 25%;
+	left: 40%;
+	width: 450px;
+	border: 1px #000000 solid;
+	border-radius: 7px;
+	background-color: #E9E9E1;
+	display: none;
+	position: absolute;
+	-webkit-box-shadow: inset 0px -1px 0px 1px rgba(255,255,255,1);
+	-moz-box-shadow: inset 0px -1px 0px 1px rgba(255,255,255,1);
+	box-shadow: inset 0px -1px 0px 1px rgba(255,255,255,1);
+	z-index: 9;
+}
+
+#aidepart1cat1 {
+	top: 25%;
+	left: 40%;
+	width: 450px;
+	border: 1px #000000 solid;
+	border-radius: 7px;
+	background-color: #E9E9E1;
+	display: none;
+	position: absolute;
+	-webkit-box-shadow: inset 0px -1px 0px 1px rgba(255,255,255,1);
+	-moz-box-shadow: inset 0px -1px 0px 1px rgba(255,255,255,1);
+	box-shadow: inset 0px -1px 0px 1px rgba(255,255,255,1);
+	z-index: 9;
+}
+
+#guidetab .top {
+	border-radius: 6px 6px 0px 0px;
+	height: 30px;
+	color: #FFFFFF;
+	background-color: #367897;
+	border: 2px solid #408CAF;
+	border-bottom: none;
+	line-height: 30px;
+	text-align: center;
+	cursor: default;
+	font-size: 13px;
+	font-weight: bold;
+}
+#guidetab .top img {
+	position: absolute;
+	right: 8px;
+	top: 7px;
+	cursor: pointer;
+}
+#guidetab .left {
+	width: 50%;
+	height: 25%;
+	display: inline-block;
+	font-size: 14px;
+	color: black;
+	margin: 20px;
+	padding-top: 10px;
+}
+#guidetab .left .title {
+	font-size: 20px;
+	font-weight: bold;
+}
+#guidetab .right {
+	width: 40%;
+	height: 25%;
+	display: inline-block;
+	margin-top: 20px;
+}
+#guidetab .categories {
+	margin: 30px;
+}
+#guidetab .btn {
+	width: 100%;
+	height: 40px;
+	border: 2px solid black;
+	border-radius: 3px;
+	background-image: url(../images/help/btn-bg.png);
+	padding-top: 7px;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 5px;
+}
+#guidetab .btn:hover {
+	width: 100%;
+	height: 40px;
+	border: 2px solid black;
+	border-radius: 3px;
+	background-image: url(../images/help/btn-bg-hover.png);
+	padding-top: 7px;
+	color: white;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+#aidepart2cat1 {
+	width: 280px;
+	height: 310px;
+	background-color: #E2E2E2;
+	border-radius: 5px;
+	border-top: 3px solid white;
+	border-bottom: 5px solid #D3D3D3;
+	top: 0;
+	display: none;
+	position: absolute;
+	margin: 30px;
+	padding: 10px;
+	z-index: 999999;
+	background-image: url(../images/help/appeler-guide.png);
+	box-shadow: 50px 0px 150px black;
+}
+
+#aidepart2cat1 .cancel {
+	margin-left: 95%;
+	margin-top: -5px;
+	cursor: pointer;
+}
+
+#alert {
+	top: 0;
+	height: 100%;
+	display: none;
+	position: fixed;
+	z-index: 10000;
+	color: #000000;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.alert-box {
+	top: 40%;
+	left: 45%;
+	width: 280px;
+	height: 150px;
+	border: 1px #000000 solid;
+	border-radius: 7px;
+	background-color: #E9E9E1;
+	position: absolute;
+	-webkit-box-shadow: inset 0px -1px 0px 1px rgba(255,255,255,1);
+	-moz-box-shadow: inset 0px -1px 0px 1px rgba(255,255,255,1);
+	box-shadow: inset 0px -1px 0px 1px rgba(255,255,255,1);
+}
+
+#alert .alert-box #guidetab .contenair {
+	font-color: black;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	font-size: 13px;
+}
+

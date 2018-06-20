@@ -1,0 +1,199 @@
+#profilBox {
+	height: 600px;
+	border: 1px #000000 solid;
+	border-radius: 7px;
+	background-color: #EFEFEF;
+	display: none;
+	position: absolute;
+	z-index: 5;
+	color: #000000;
+	width: 650px;
+	margin-left: 100px;
+	margin-top: 20px;
+	top: 0;
+}
+#profilBox .top {
+	border-radius: 6px 6px 0px 0px;
+	height: 30px;
+	color: #FFFFFF;
+	background-color: #367897;
+	border: 2px solid #408CAF;
+	border-bottom: none;
+	line-height: 30px;
+	text-align: center;
+	cursor: default;
+	font-size: 13px;
+	font-weight: bold;
+	
+}
+#profilBox .top img {
+	position: absolute;
+	right: 8px;
+	top: 7px;
+	cursor: pointer;
+}
+#profilBox .contenair {
+	margin: 10px;
+}
+#profilBox .left {
+	width: 50%;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+#profilBox .right {
+	width: 45%;
+	display: inline-block;
+	font-size: 11px;
+	margin-top: 10px;
+}
+#profilBox .left-left {
+	height: 15%;
+	display: inline-block;
+	margin-top: -15px;
+}
+#profilBox .left-right {
+	height: 20%;
+	display: inline-block;
+	font-size: 11px;
+	margin: 10px;
+}
+#profilBox .right .bestfriend {
+	background-color: #DFDFDF;
+	height: 22px;
+	width: 100%;
+	padding: 10px;
+	display: inline-block;
+	border-radius: 13px;
+	margin-top: 20px;
+}
+#profilBox .right .bestfriend p {
+	margin-top: -5px;
+	display: inline-block;
+}
+#profilBox .right .bestfriend img {
+	display: inline-block;
+	margin-top: -33px;
+	margin-left: -15px;
+}
+
+#profilBox .badges {
+	width: 100%;
+	background-color: #DFDFDF;
+	border-radius: 7px;
+	font-size: 12px;
+	height: 50px;
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 17px;
+	display: inline-block;
+}
+#profilBox .separation-vertical {
+	background-color: #AEAEAE;
+	height: 150px;
+	width: 1px;
+	display: inline-block;
+	margin: 10px;
+}
+#profilBox .separation-horizontal {
+	background-color: #AEAEAE;
+	height: 1px;
+	width: 590;
+	margin: auto;
+}
+#profilBox .apparts {
+	margin: 3px;
+	cursor: pointer;
+}
+#profilBox .apparts img {
+	display: inline-block;
+	margin: 1px;
+	cursor: pointer;
+}
+#profilBox .apparts p {
+	cursor: pointer;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-top: 5px;
+	margin-left: 10px;
+	display: inline-block;
+}
+#profilBox .groupe-contenair {
+	font-size: 12px;
+	margin: 10px;
+}
+/* #msgbvn {
+	width: 400px;
+	height: 300px;
+	border: 1px solid #000000;
+	border-bottom: 2px solid #000000;
+	border-radius: 8px;
+	background-color: #E9E9E1;
+	z-index: 9;
+	top: 10px;
+	left: 50px;
+	-webkit-box-shadow: inset 0px 0px 0px 2px rgba(255,255,255,0.75);
+	-moz-box-shadow: inset 0px 0px 0px 2px rgba(255,255,255,0.75);
+	box-shadow: inset 0px 0px 0px 2px rgba(255,255,255,0.75);
+	color: #FFFFFF;
+	background-image: url(../images/profil/build.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#msgbvn .msgbvn-top {
+	background-color: #367897;
+	height: 33px;
+	border-radius: 8px 8px 0px 0px;
+	border: 2px solid #408CAF;
+	border-bottom: 1px solid #000000;
+	line-height: 33px;
+	text-align: center;
+	position: relative;
+	font-weight: bold;
+	font-size: 14px;
+}
+#msgbvn .msgbvn-top img {
+	position: absolute;
+	right: 35px;
+	top: 5px;
+	cursor: pointer;
+}
+#msgbvn .msgbvn-top img:last-child {
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	cursor: pointer;
+}
+#msgbvn .msg-container {
+	margin: 20px;
+	color: black;
+	width: 80%;
+}
+#msgbvn h1 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#msgbvn p {
+	font-size: 14px;
+	left: 10px;
+}
+#msgbvn img {
+	cursor: pointer;
+	margin-top: 20px;
+}
+#msgbvn .attention {
+	color: red;
+	font-size: 10px;
+	position: fixed;
+	bottom: 0;
+} */

@@ -1,0 +1,318 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster|Roboto);
+
+#avatarChanger {
+    height: 0px;
+    min-width: 0px;
+    border: 1px #fff solid;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+    display: none;
+    position: absolute;
+    z-index: 9;
+    top: 5px;
+    left: 15px;
+}
+
+#avatarcontent {
+    width: 600px;
+    height: 545px;
+    border: 1px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-radius: 8px;
+    background-color: #E9E9E1;
+    position: absolute;
+    z-index: 9;
+    top: 10px;
+    left: 50px;
+    -webkit-box-shadow: inset 0px 0px 0px 2px rgba(255,255,255,0.75);
+    -moz-box-shadow: inset 0px 0px 0px 2px rgba(255,255,255,0.75);
+    box-shadow: inset 0px 0px 0px 2px rgba(255,255,255,0.75);
+    color: #FFFFFF;
+}
+
+#avatarcontent .avatartop {
+    background-color: #367897;
+    height: 33px;
+    border-radius: 8px 8px 0px 0px;
+    
+    border-bottom: 1px solid #000000;
+    line-height: 33px;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    font-size: 14px;
+}
+#avatarcontent .avatartop p {
+    display: inline-block;
+}
+
+
+#look {
+    display: none;
+    position: absolute;
+    z-index: 8;
+}
+
+/* Choix primaire */
+.background-image {
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+.mainNav {
+    height: 35px;
+    width: 47px;
+}
+#avatarimage_content {
+    width: 100px;
+}
+#avatarimage_content .content_choix .first_child .mainNav {
+    padding: 10px;
+    color: #666;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    text-shadow: 0 1px 0 #fff;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: inset 1px 1px 0 #fff, 1px 1px 0 #999;
+    background-color: #efefef;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+#avatarimage_content .content_choix .first_child .selected {
+    box-shadow: 1px 1px  white, inset 1px 1px 0 white;
+}
+
+/* FIN */
+
+
+/* Choix secondaire */
+.nav {
+    padding: 5px;
+}
+.nav.selected {
+    background-color: #E2E2E2;
+    border: 1px solid rgba(0,0,0,0.6);
+    border-top: none;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: inset 0px -2px 0px 0px rgba(0,0,0,0.3);
+    font-weight: bolder; 
+    position: relative;
+    z-index: 9;
+    top: -1px;
+}
+/* FIN */
+
+
+/* Rotation avatar */
+.rotate {
+    height: 29px;
+    width: 64px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.rotate.left {
+    background-position: center;
+    display: inline-block;
+    background-image: url('../images/avatar/rotate_left.png');
+}   
+.rotate.right {
+    display: inline-block;
+    background-position: center;
+    background-image: url('../images/avatar/rotate_right.png');
+}   
+.rotate:hover {
+    opacity: 0.5;
+}
+/* FIN */
+
+
+/* Choix couleur */
+#avatarimage_content {
+    margin: 0 auto;
+    width: 550px;
+    border: 1px rgba(0,0,0,0.6) solid;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #ECECEC;
+}
+#palette {
+    width: 420px;
+    margin-top: 30px;
+    overflow-y: auto;
+    height: 98px;
+}
+.palette-child {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    border: 2px solid rgba(0,0,0,0.3);
+}
+.palette-child.selected {
+    cursor: auto;
+    box-shadow: inset 0px 0px 0  3px rgba(255,255,255,0.3);
+}
+/* FIN */
+
+
+/* Choix vêtement */
+#clothes {
+    height: 220px;
+    width: 420px;
+    overflow-y: scroll;
+}  
+.clothes-object {
+    height: 45px;
+    cursor: pointer;
+    width: 45px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 50px;
+    background-position-x: center;
+    border-radius: 35px;
+    background-repeat: no-repeat;
+    border: 3px solid #DBDAD5;
+    background-color: #C9C8C3;   
+}
+.clothes-object.selected {
+    border-radius: 35px;
+    border: 3px solid rgba(52, 152, 219,0.6);
+    background-color: #B1B1B1;   
+    cursor: auto;
+}
+.clothes-object.hr, .clothes-object.hd, .clothes-object.he, .clothes-object.ea, .clothes-object.ha, .clothes-object.fa {
+    background-position-y: -20px;   
+}  
+.clothes-object.ca, .clothes-object.ch, .clothes-object.cp, .clothes-object.cc {
+    background-position-y: -40px;
+}
+.clothes-object.wa {
+    background-position-y: -60px;   
+}
+.clothes-object.sh {
+    background-position-y: -80px;   
+}  
+.clothes-object.remove {
+    background-position-y: center;   
+    background-image: url('../images/avatar/remove.png');
+} 
+.clothes-object.lg {
+    background-position-y: -70px;   
+}
+/* FIN */
+
+
+#avatar {
+    height: 220px;
+    width: 128px;
+    display: inline-block;
+    background-image: url('https://www.habbo.com/habbo-imaging/avatarimage?hb=image&user=Pulx&headonly=0&direction=2&head_direction=2&action=&gesture=&size=m');
+}
+
+
+
+.content_choix {
+    font-family: Roboto;
+    font-weight: lighter;
+    height: 74px;
+    border-bottom: 1px rgba(0,0,0,0.6) solid;
+    background-color: #E2E2E2;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.content_choix > ul > li {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.content_choix > .sub {
+    display: none;
+}  
+.content_choix > ul.sub.selected {
+    display: block;   
+}
+.content_choix .sub {
+    display: none;
+}
+.content_choix ul.sub.selected > .sub {
+    display: inline-block;   
+}
+
+
+#code {
+    position: absolute;
+}
+
+::-webkit-scrollbar-button:horizontal:increment {
+    background: url(../images/scrollbar/scrollbar_bottom.png) no-repeat center center;
+}
+
+::-webkit-scrollbar-button:horizontal:decrement {
+    background: url(../images/scrollbar/scrollbar_top.png) no-repeat center center;
+}
+
+::-webkit-scrollbar-button:vertical:increment {
+    background: url(../images/scrollbar/scrollbar_bottom.png) no-repeat center center;
+}
+
+::-webkit-scrollbar-button:vertical:decrement {
+    background: url(../images/scrollbar/scrollbar_top.png) no-repeat center center;
+}
+::-webkit-scrollbar-button:horizontal:increment:active {
+    background: url(../images/scrollbar/ascrollbar_bottom.png) no-repeat center center;
+}
+
+::-webkit-scrollbar-button:horizontal:decrement:active {
+    background: url(../images/scrollbar/ascrollbar_top.png) no-repeat center center;
+}
+
+::-webkit-scrollbar-button:vertical:increment:active {
+    background: url(../images/scrollbar/ascrollbar_bottom.png) no-repeat center center;
+}
+
+::-webkit-scrollbar-button:vertical:decrement:active {
+    background: url(../images/scrollbar/ascrollbar_top.png) no-repeat center center;
+}
+::-webkit-scrollbar-button:horizontal:increment:disabled {
+    background: url(../images/scrollbar/dscrollbar_bottom.png) no-repeat center center;
+}
+
+::-webkit-scrollbar-button:horizontal:decrement:disabled {
+    background: url(../images/scrollbar/dscrollbar_top.png) no-repeat center center;
+}
+
+::-webkit-scrollbar-button:vertical:increment:disabled {
+    background: url(../images/scrollbar/dscrollbar_bottom.png) no-repeat center center;
+}
+
+::-webkit-scrollbar-button:vertical:decrement:disabled {
+    background: url(../images/scrollbar/dscrollbar_top.png) no-repeat center center;
+}
+::-webkit-scrollbar {
+    width: 17px;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar-thumb {
+    border: 1px solid #535353;
+    box-shadow: inset 0px -1px 1px rgba(0,0,0,0.2);
+    background-color: #ffffff;
+    background: #fff url(../images/scrollbar/scrollbar-bar.png) no-repeat center center;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #CCCCCC url(../images/scrollbar/scrollbar-bar.png) no-repeat center center;
+}
+::-webkit-scrollbar-track {
+    border: 1px solid #535353;
+}
+::-webkit-scrollbar-track-piece {
+    border: 1px solid #535353;
+    background-color: #d9d9d9;
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,0.2);
+}
