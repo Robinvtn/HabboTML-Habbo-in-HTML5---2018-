@@ -1,4 +1,6 @@
 <!-- PARTIE 2 : BOITES PRINCIPALES -->
+
+
 <!-- 6 - Navigateur Tous Les Appartements -->
 <div id="nav"> 
 		<div class="top"> 
@@ -6,7 +8,7 @@
 			<img id="closenavigateur" src="assets/images/nav/croix.gif" onmouseover="this.src='assets/images/nav/croixh.gif'" onmouseout="this.src='assets/images/nav/croix.gif'">
 		</div>
 		<div class="choix"> 
-			<img id="flux" src="assets/img/flux.gif" class="refresh_navarticle">
+			<img id="flux" src="assets/images/nav/flux.gif" class="refresh_navarticle">
 			<a class="refresh_navarticle new choisir selected">Tous les apparts</a>
 			<a class="refresh_navarticle all choisir" id ="ouvrirMesAppartements">Mes appartements</a>
 		</div>
@@ -33,7 +35,7 @@
 						<div class="titre">La Réceptionnn</div>
 						<div class="info">
 							<div class="info_article">
-								<img src="assets/img/info.gif" class="bouton">
+								<img src="assets/images/nav/info.gif" class="bouton">
 								<span class="article_info">
 									<div class="ts_article">
 										<div class="image" style="background-image: url(assets/images/nav/top.png);"></div>
@@ -41,7 +43,7 @@
 									</div>
 									<div class="plus_info">
 										<div class="auteur">
-											<img src="assets/img/auteur.gif">
+											<img src="assets/images/nav/auteur.gif">
 											<span>officialsroomsfr</span>
 										</div>
 										<div class="mention">

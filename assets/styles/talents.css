@@ -6,7 +6,7 @@
 	z-index: 10000;
 	color: #000000;
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 #talents .box-header {
@@ -37,7 +37,7 @@
 	border-top: 3px solid white;
 	border-bottom: 5px solid #D3D3D3;
 	margin: auto;
-	margin-top: 10px;
+	margin-top: 3px;
 	box-shadow: 50px 0px 100px black;
 }
 
@@ -48,7 +48,7 @@
 }
 
 #talents .begin {
-	width: 15%;
+	width: 17%;
 	margin: 20px;
 	display: inline-block;
 	height: 75%;
@@ -128,4 +128,149 @@
 	height: 9px;
 	background-color: #615353;
 	border-radius: 0px 100px 100px 0px;
+}
+
+#talents .habbosecurity {
+	width: 20%;
+	margin: 20px;
+	display: inline-block;
+	height: 75%;
+}
+
+#talents .habbosecurity .title {
+	font-size: 15px;
+	font-weight: bold;
+	color: #0f0f0f;
+	margin-bottom: 10px;
+	letter-spacing: -1px;
+	margin-top: 20px;
+}
+
+#talents .habbosecurity p {
+	font-size: 12px;
+	letter-spacing: -0.5px;
+}
+
+#talents .habbosecurity .habbosecuritygo {
+	width: 214px;
+	height: 84px;
+	background-image: url(../images/talents/habbosecuritygo.png);
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+#habbosecuritybox {
+	top: 0;
+	height: 100%;
+	display: none;
+	position: fixed;
+	z-index: 10000;
+	color: #000000;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#habbosecuritybox .box-header {
+	width: 90%;
+	height: 50px;
+	margin: auto;
+	margin-top: 7%;
+	margin-right: 75px;
+}
+
+#habbosecuritybox .box-header .title {
+	color: #BEBFC1;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 33%;
+}
+
+#habbosecuritybox .box-header .desc {
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 33%;
+}
+
+#habbosecuritybox .box {
+	width: 490px;
+	height: 500px;
+	background-color: #E2E2E2;
+	border-radius: 5px;
+	border-top: 3px solid white;
+	border-bottom: 5px solid #D3D3D3;
+	margin: auto;
+	margin-top: 3px;
+	box-shadow: 50px 0px 100px black;
+	background-image: url(../images/talents/hsbbg.png);
+}
+
+#habbosecuritybox .box .header img {
+	margin-left: 95%;
+	margin-top: 3px;
+	cursor: pointer;
+}
+
+.hsbleft {
+	display: inline-block;
+	width: 54%;
+	height: 60%;
+	margin-top: 25%;
+	margin-left: 10px;
+}
+
+.hsbright {
+	display: inline-block;
+	width: 40%;
+	height: 60%;
+	margin-top: 125px;
+	padding-right: 10px;
+}
+
+.hsbright .title,
+.hsbleft .title {
+	font-size: 15px;
+	font-weight: bold;
+	color: #0f0f0f;
+	margin-bottom: 10px;
+	letter-spacing: -1px;
+}
+
+.hsbleft p,
+.hsbright p {
+	font-size: 12px;
+}
+
+.navbottom {
+	bottom: 0;
+	padding-bottom: 150px;
+	position: absolute;
+	padding-left: 10px;
+}
+
+.nextillumina {
+	width: 80px;
+	height: 38px;
+	background-image: url(../images/talents/next.png);
+	display: inline-block;
+	cursor: pointer;
+
+}
+
+.previousillumina {
+	width: 93px;
+	height: 38px;
+	background-image: url(../images/talents/previous.png);
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 60%;
+	cursor: pointer;
+}
+
+.hsbendbtn {
+	width: 73px;
+	height: 38px;
+	background-image: url(../images/talents/hsbendbtn.png);
+	display: inline-block;
+	cursor: pointer;
 }

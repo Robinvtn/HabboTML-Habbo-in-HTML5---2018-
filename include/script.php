@@ -305,6 +305,25 @@ $(function() {
 	});
 });
 
+$(function() {
+	$( "#talents" ).draggable({ containment: ".interface" });
+
+	$("#habbosecuritygo").click(function(){ // Ouvrir les conseils de sécurité
+		$("#talents").hide();
+		$("#habbosecuritybox").toggle();
+	});
+
+	$("#fermerHSB").click(function(){ // Fermer les conseils de sécurité
+		$("#talents").toggle();
+		$("#habbosecuritybox").hide();
+	});
+
+	$("#endHSB").click(function(){ // Fermer les conseils de sécurité
+		$("#talents").toggle();
+		$("#habbosecuritybox").hide();
+	});
+});
+
 </script>
 <script src="assets/styles/js/avatarjs.js"></script> 
 <script>

@@ -138,42 +138,7 @@ $reponse->closeCursor(); // Termine le traitement de la requête
 <?php include('include/catalogues.php'); // les fichiers contenant les catalogues se trouvent ici, s'y rendre pour modifier les catalogues ?>
 <?php include('include/help.php'); // les fichiers contenant les boites d'aides ?>
 <?php include('include/room.php'); // les fichiers contenant les codes des apparts // bientôt supprimé ?>
-
-<!-- 15 : Talents -->
-	<div id="talents">
-
-		<div class="box-header">
-			<p class="title">EVOLUTION DE MES TALENTS</p>
-			<p class="desc">Être un Habbo Citoyen</p>
-		</div>
-
-		<div class="box">
-
-			<img id="fermermestalents" src="assets/images/talents/croix-illumina.png">
-
-			<div class="begin">
-			<p class="title">Ta voie pour devenir un véritable Habbo Citoyen</p>
-			<p>On veut que tu profites un max du temps que tu passes dans Habbo, alors avant de partir à l'aventure, regarde ce que c'est d'être un Habbo Citoyen. Il y aura des prix - ça, c'est promis!</p>
-
-			<p class="begin-mission">INSCRIS-TOI<br>SUR HABBO</p>
-			<img class="done" src="assets/images/talents/done.png">
-			<img class="moi" src="<?php echo $avatar; ?>">
-
-			</div>
-
-			<div class="separation"></div>
-
-			<div class="avance">
-				<p>TES PROGRES EN TANT QUE CITOYEN : 10%</p>
-				<div class="bar-avance"><div class="progression"></div></div>
-			</div>
-
-
-		</div>
-	
-	</div>
-
-<!-- FIN TALENTS -->
+<?php include('include/habbocitizen.php'); // les fichiers contenant les codes de la Habbo Talents &cie ?>
 
 <!-- 8 - Profil -->
 	<div id="profilBox">
