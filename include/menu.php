@@ -95,20 +95,20 @@
 <div id="info">
 	<div class="point">
 		<span class="credits" style="color: #36C2E3;" title="Tu as 0 diamants"><?php echo $diamonds; ?></span>
-        <img src="assets/images/menu/diamonds.png" class="masterTooltip" title="Obtenir + de diamants"> <!-- DIAMONDS ICON -->
+        <img src="assets/images/hotelview/windowManagerIcons/diamond.png" class="masterTooltip" title="Obtenir + de diamants" style="padding-left: 4px;"> <!-- DIAMONDS ICON -->
 		<span class="credits" style="color: #CF82D1;" title="Tu as 0 duckets"><?php echo $duckets; ?></span>
-		<img src="assets/images/menu/duckets.png" class="masterTooltip" title="Obtenir + de duckets"> <!-- DUCKETS ICON -->
+		<img src="assets/images/hotelview/windowManagerIcons/ducket.png" class="masterTooltip" title="Obtenir + de duckets"> <!-- DUCKETS ICON -->
 		<span class="credits" style="color: #CCA923;" title="Tu as 0 crédits"><?php echo $credits; ?></span> 
-		<img src="assets/images/menu/credits.png" class="masterTooltip" title="Obtenir + de crédits"> <!-- CREDITS ICON -->
+		<img src="assets/images/hotelview/windowManagerIcons/credit.png" class="masterTooltip" title="Obtenir + de crédits"> <!-- CREDITS ICON -->
 	</div>
 	<div class="certif">
-		<a id="ouvririnfohc"><img src="assets/images/menu/hc.png"><p><b><?php if($hc == 0) { echo "Rejoins"; } else { echo "À vie"; } ?></b></p></a>
+		<a id="ouvririnfohc"><img src="assets/images/hotelview/windowManagerIcons/hc.png"><p><b><?php if($hc == 0) { echo "Rejoins"; } else { echo "À vie"; } ?></b></p></a>
 	</div>
 	<div class="limit"></div>
 	<div class="bouton">
 		<a id="guide" class="guide">Aide</a> <!-- AIDE BOUTON -->
-		<a href="logout.php" class="deco"><img src="assets/img/deco.gif"></a> <!-- DECONNEXION BOUTON -->
-		<a id="param" class="param"><img src="assets/images/menu/param.gif"></a> <!-- PARAMETRE BOUTON -->
+		<a href="logout.php" class="deco"><img src="assets/images/hotelview/windowManagerIcons/logout.png"></a> <!-- DECONNEXION BOUTON -->
+		<a id="param" class="param"><img src="assets/images/hotelview/windowManagerIcons/settings.png"></a> <!-- PARAMETRE BOUTON -->
 	</div>
 </div>
 <!-- Fin Boite d'info -->

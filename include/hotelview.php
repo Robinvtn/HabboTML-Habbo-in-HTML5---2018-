@@ -9,7 +9,7 @@
         <div id="hotel-view-beans">
             <div id="hotel-view-beans-limited">
                 <a class="illumina-button">Obtiens des crédits</a>
-                <img src="assets/images/hv/illustrations/spromo_bonusbag18_2.png">
+                <img src="assets/images/hotelview/landing_view/illustrations/spromo_bonusbag18_2.png">
                 <h1>
                 Sac Bonus II chaque 120 crédits achetés
                 <div id="hotel-view-beans-limited-bar">
@@ -19,7 +19,7 @@
                 </h1>
             </div>
             <div class="bean">
-                <img src="assets/images/hv/illustrations/spromo_coralking18_rareturt.png">
+                <img src="assets/images/hotelview/landing_view/illustrations/spromo_coralking18_rareturt.png">
                 <div>
                     <span>
                         <h1>Tortue de Mer RARE</h1>
@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="bean">
-                <img src="assets/images/hv/illustrations/spromo_coralkingnewcloth.png">
+                <img src="assets/images/hotelview/landing_view/illustrations/spromo_coralkingnewcloth.png">
                 <div>
                     <span>
                         <h1>NOUVEAU : Les vêtements du Royaume de Corail</h1>

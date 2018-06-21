@@ -137,6 +137,7 @@ $reponse->closeCursor(); // Termine le traitement de la requête
 <?php include('include/navigateurs.php'); // les fichiers contenant le menu se trouvent ici, s'y rendre pour modifier le menu ?>
 <?php include('include/catalogues.php'); // les fichiers contenant les catalogues se trouvent ici, s'y rendre pour modifier les catalogues ?>
 <?php include('include/help.php'); // les fichiers contenant les boites d'aides ?>
+<?php include('include/room.php'); // les fichiers contenant les codes des apparts // bientôt supprimé ?>
 
 <!-- 15 : Talents -->
 	<div id="talents">
@@ -178,7 +179,7 @@ $reponse->closeCursor(); // Termine le traitement de la requête
 	<div id="profilBox">
 		<div class="top">
 			<p>Mon Profil</p>
-			<img id="closeProfil" src="assets/img/croix.gif" onmouseover="this.src='assets/img/croixh.gif'" onmouseout="this.src='assets/img/croix.gif'">
+			<img id="closeProfil" src="assets/images/nav/croix.gif" onmouseover="this.src='assets/images/nav/croixh.gif'" onmouseout="this.src='assets/images/nav/croix.gif'">
 		</div>
 		<div class="contenair">
 		
@@ -223,7 +224,7 @@ $reponse->closeCursor(); // Termine le traitement de la requête
 		<div id="avatarcontent">
 			<div class="avatartop">
 				<p>Changer de look</p>
-				<img style="position: absolute; right: 10px; top: 5px; cursor: pointer;" id="closeavatar" src="assets/img/croix.gif" onmouseover="this.src='assets/img/croixh.gif'" onmouseout="this.src='assets/img/croix.gif'">
+				<img style="position: absolute; right: 10px; top: 5px; cursor: pointer;" id="closeavatar" src="assets/images/nav/croix.gif" onmouseover="this.src='assets/images/nav/croixh.gif'" onmouseout="this.src='assets/images/nav/croix.gif'">
 
 	<nav class="content_choix" style="background-color: #0E3F52;">
 		<ul class="first_child">
@@ -282,7 +283,7 @@ $reponse->closeCursor(); // Termine le traitement de la requête
 	<div id="hctab">
 		<div class="top"> 
 			<p>Centre HC</p>
-			<img id="closeinfohc" src="assets/img/croix.gif" onmouseover="this.src='assets/img/croixh.gif'" onmouseout="this.src='assets/img/croix.gif'">
+			<img id="closeinfohc" src="assets/images/nav/croix.gif" onmouseover="this.src='assets/images/nav/croixh.gif'" onmouseout="this.src='assets/images/nav/croix.gif'">
 		</div>
 		<div class="inside_A">
 			<div class="btn-buy" id="ouvrircatahc"><p>Achète HC</p></div>
@@ -309,7 +310,7 @@ $reponse->closeCursor(); // Termine le traitement de la requête
 	<div id="hctab">
 		<div class="top"> 
 			<p>Centre HC</p>
-			<img id="closeinfohc" src="assets/img/croix.gif" onmouseover="this.src='assets/img/croixh.gif'" onmouseout="this.src='assets/img/croix.gif'">
+			<img id="closeinfohc" src="assets/images/nav/croix.gif" onmouseover="this.src='assets/images/nav/croixh.gif'" onmouseout="this.src='assets/images/nav/croix.gif'">
 		</div>
 		<div class="inside_A">
 			<div class="btn-buy" id="ouvrircatahc"><p>Catalogue</p></div>
@@ -332,7 +333,7 @@ $reponse->closeCursor(); // Termine le traitement de la requête
 	<div id="invtab">
 		<div class="top"> 
 			<p>Inventaire</p>
-			<img id="closeinventaire" src="assets/img/croix.gif" onmouseover="this.src='assets/img/croixh.gif'" onmouseout="this.src='assets/img/croix.gif'">
+			<img id="closeinventaire" src="assets/images/nav/croix.gif" onmouseover="this.src='assets/images/nav/croixh.gif'" onmouseout="this.src='assets/images/nav/croix.gif'">
 		</div>
 		<div class="choix"> 
 			<a class="refresh_navarticle new choisir selected">Mobiliers</a>
@@ -348,44 +349,7 @@ $reponse->closeCursor(); // Termine le traitement de la requête
 <!-- Fin Inventaire -->
 <!-- FIN PARTIE 2 -->
 
-<!-- PARTIE 3 : LES APPARTEMENTS -->
-<!-- 13 - Room -->
-<div id="room">
-	<div class="btn-exit" id="sortirImmediatement">Sortir immédiatement</h1></div> <!-- Bouton d'urgence -->
-	<div class="appart-info-container"> <!-- Informations de l'appartement -->
-		<div class="appart-info-name"><p>La Réceptionnn</p><span>de Robin</span><br><br></div>
-		<div class="appart-info-tools">
-			<div class="liste-tools"><ul>
-				<li><img src="assets/images/room/para.png">Paramètres</li>
-				<li><img src="assets/images/room/zoom.png">Zoom</li>
-				<li><img src="assets/images/room/chats.png">Historique</li>
-				<li><img src="assets/images/room/like.png">J'aime</li>
-				<li id="ouvrirshareappart"><img src="assets/images/room/share.png">Lien vers cet appart</li>
-			</ul></div>
-		</div>
-	</div>
-</div>
-<!-- Room Fin -->
 
-<!-- 14 - Partager un appart -->
-<section>
-<div id="shareappart">
-	<div class="shareappart-top"><!-- HAUT DE BOUTIQUE -->
-        <p>Plus on est de fous, plus on rit !</p>
-        <img id="closeshareappart" src="assets/img/croix.gif" onmouseover="this.src='assets/img/croixh.gif'" onmouseout="this.src='assets/img/croix.gif'">
-	</div>
-	<div class="img-container">
-		<div style="background-image: url(assets/images/nav/top.png);" class="image_new"></div>
-	</div>
-	<div class="sp-container">
-		<h1>Partage cet appart !</h1>
-		<p>Regarde la Homepage de cet appart et partage la avec tes amis!</p><br>
-		<p class="lien">https://habbo.fr/room/1</p>
-	</div>
-</div>
-</section>
-<!-- Fin Partager un appart -->
-<!-- FIN PARTIE 3 -->
 
 	<audio src="assets/audio/credits.mp3" autoplay />
 	<audio src="assets/audio/duckets.mp3" autoplay />
