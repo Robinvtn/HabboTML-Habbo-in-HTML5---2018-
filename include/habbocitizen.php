@@ -28,6 +28,14 @@
 				<div class="habbosecuritygo" id="habbosecuritygo"></div>
 				</div>
 
+			<div class="separation"></div>
+
+				<div class="grow-up">
+				<p class="title">Regarde autour de toi</p>
+				<p>Maintenant que tu sais comment rester en sécurité sur Habbo, pourquoi ne pas faire un tour ? On est sûr que tu trouveras quelque chose à ton gpût !</p>
+				<div class="habbosecuritygo" id="habbosecuritygo"></div>
+				</div>
+
 			<div class="avance">
 				<p>TES PROGRES EN TANT QUE CITOYEN : 10%</p>
 				<div class="bar-avance"><div class="progression"></div></div>
