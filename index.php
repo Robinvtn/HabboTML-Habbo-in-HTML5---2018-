@@ -179,7 +179,7 @@ $reponse->closeCursor(); // Termine le traitement de la requête
 	<div id="profilBox">
 		<div class="top">
 			<p>Mon Profil</p>
-			<img src="assets/images/nav/croix.gif" onmouseover="this.src='assets/images/nav/croixh.gif'" onmouseout="this.src='assets/images/nav/croix.gif'">
+			<img id="closeProfil" src="assets/images/nav/croix.gif" onmouseover="this.src='assets/images/nav/croixh.gif'" onmouseout="this.src='assets/images/nav/croix.gif'">
 		</div>
 		<div class="contenair">
 		

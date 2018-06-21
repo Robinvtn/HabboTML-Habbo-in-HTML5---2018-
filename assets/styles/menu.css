@@ -35,10 +35,10 @@
 	top: 5px;
 }
 #info .point .credits {
-	width: 40px;
+	width: 35px;
 	text-align: right;
 	overflow: hidden;
-	padding-left: 4px;
+	padding-left: 0px;
 	margin-top: 3px;
 	margin-bottom: 3px;
 	cursor: pointer;
@@ -135,7 +135,7 @@ a {
 }
 
 body {
-	background-image: url(../images/hv/fond/fond.png);
+	background-image: url(../images/hotelview/landing_view/fond/fond.png);
 	font-family: 'Ubuntu';
 	background-color: #000000;
 	overflow: hidden;
@@ -194,7 +194,7 @@ section {
 }
 
 .logo {
-	background-image: url(../images/hv/logo.png);
+	background-image: url(../images/hotelview/landing_view/logo.png);
 	background-repeat: no-repeat;
 	background-position: left top;
 	position: absolute;
@@ -206,7 +206,7 @@ section {
 
 }
 .avatar {
-	background-image: url(../images/hv/avatar/avatar.png);
+	background-image: url(../images/hotelview/landing_view/avatar/avatar.png);
 	background-repeat: no-repeat;
 	background-position: left bottom;
 	position: absolute;
@@ -221,7 +221,7 @@ section {
 	left: 133px;
 }
 .hotel {
-	background-image: url(../images/hv/hotel/hotel.png);
+	background-image: url(../images/hotelview/landing_view/hotel/hotel.png);
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	position: absolute;
