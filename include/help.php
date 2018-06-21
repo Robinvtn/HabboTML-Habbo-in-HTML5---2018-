@@ -3,7 +3,7 @@
 	<div id="guidetab">
 		<div class="top"> 
 			<p>Aide</p>
-			<img id="closeguide" src="assets/img/croix.gif" onmouseover="this.src='assets/img/croixh.gif'" onmouseout="this.src='assets/img/croix.gif'">
+			<img id="closeguide" src="assets/images/nav/croix.gif" onmouseover="this.src='assets/images/nav/croixh.gif'" onmouseout="this.src='assets/images/nav/croix.gif'">
 		</div>
 
 		<div class="left">
@@ -34,7 +34,7 @@
 			<div id="guidetab">
 				<div class="top"> 
 					<p>Aide</p>
-					<img id="closeaidepart1cat1" src="assets/img/croix.gif" onmouseover="this.src='assets/img/croixh.gif'" onmouseout="this.src='assets/img/croix.gif'">
+					<img id="closeaidepart1cat1" src="assets/images/nav/croix.gif" onmouseover="this.src='assets/images/nav/croixh.gif'" onmouseout="this.src='assets/images/nav/croix.gif'">
 				</div>
 
 
@@ -79,7 +79,7 @@
 			<div id="guidetab">
 				<div class="top"> 
 					<p>Attention !</p>
-					<img id="closealert" src="assets/img/croix.gif" onmouseover="this.src='assets/img/croixh.gif'" onmouseout="this.src='assets/img/croix.gif'">
+					<img id="closealert" src="assets/images/nav/croix.gif" onmouseover="this.src='assets/images/nav/croixh.gif'" onmouseout="this.src='assets/images/nav/croix.gif'">
 				</div>
 
 				<div class="contenair">

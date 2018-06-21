@@ -3,7 +3,7 @@
 <div id="nav"> 
 		<div class="top"> 
 			<p>Navigateur - Tous les apparts</p>
-			<img id="closenavigateur" src="assets/img/croix.gif" onmouseover="this.src='assets/img/croixh.gif'" onmouseout="this.src='assets/img/croix.gif'">
+			<img id="closenavigateur" src="assets/images/nav/croix.gif" onmouseover="this.src='assets/images/nav/croixh.gif'" onmouseout="this.src='assets/images/nav/croix.gif'">
 		</div>
 		<div class="choix"> 
 			<img id="flux" src="assets/img/flux.gif" class="refresh_navarticle">
@@ -67,7 +67,7 @@
 	<div id="navM">
 		<div class="top">
 			<p>Navigateur - Mes appartements</p>
-			<img id="closenavigateurA" src="assets/img/croix.gif" onmouseover="this.src='assets/img/croixh.gif'" onmouseout="this.src='assets/img/croix.gif'">
+			<img id="closenavigateurA" src="assets/images/nav/croix.gif" onmouseover="this.src='assets/images/nav/croixh.gif'" onmouseout="this.src='assets/images/nav/croix.gif'">
 		</div>
 		<div class="choix">
 			<img id="flux" src="assets/img/flux.gif" class="refresh_navarticle">
