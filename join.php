@@ -124,11 +124,12 @@ if (isset($pseudo,$pass))
 </head>
 <body>
 
- <div id="connexion">
+ <div id="inscription">
 	<div class="box">
 		<div class="top">
 			<p>S'inscrire sur Habbo</p>
 		</div>
+    <p id="message-mdp">Attention !<br><br>Les mots de passe ne sont pas cryptés.<br>Cela signifie qu'ils s'affichent en clair dans notre base de données et que n'importe qui de l'équipe HabboTML peut conserver votre mot de passe. <br><br>Par soucis de confidentialité et de sécurité, merci de choisir un mot de passe différent de celui que vous indiquez habituellement sur les autres sites.</p>
 		 <?= $message?:'' ?>
 		<div class="contenair">
 			<!-- <form action = "#" method = "post">
@@ -143,7 +144,7 @@ if (isset($pseudo,$pass))
 			 <form action = "#" method = "post">
     <input class="mail" placeholder="Pseudonyme" type = "text" name = "pseudo" id = "pseudo" />
    <input  class="mdp" placeholder="Mot de passe" type = "password" name = "pass" id = "pass" />
-    <input class="btngo" type = "submit" value = "C'EST PARTI!" id = "valider" />
+    <input class="btngo" type = "submit" value = "REJOINDRE HABBO!" id = "valider" />
     </form>
 
    			 <div class="separation"></div>

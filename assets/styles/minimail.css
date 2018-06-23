@@ -1,0 +1,63 @@
+#minimail {
+	top: 20px;
+	left: 20px;
+	width: 450px;
+	border: 1px #000000 solid;
+	border-radius: 7px;
+	background-color: #E9E9E1;
+	display: none;
+	position: absolute;
+	-webkit-box-shadow: inset 0px -1px 0px 1px rgba(255,255,255,1);
+	-moz-box-shadow: inset 0px -1px 0px 1px rgba(255,255,255,1);
+	box-shadow: inset 0px -1px 0px 1px rgba(255,255,255,1);
+	z-index: 9;
+}
+
+#minimail .left {
+	width: 20%;
+	display: inline-block;
+}
+
+#minimail .right {
+	width: 70%;
+	display: inline-block;
+}
+
+#minimail .right .title {
+	font-size: 15px;
+	font-weight: bold;
+	color: #0f0f0f;
+	margin-bottom: 3px;
+	letter-spacing: -1px;
+	margin-top: 20px;
+}
+
+#minimail .right p {
+	font-size: 12px;
+	letter-spacing: -0.5px;
+}
+
+#minimails {
+	width: 100%;
+	padding: 20px;
+	padding-top: 5px;
+	border-bottom: 0.5px solid #B4B4B4;
+}
+
+#minimails:last-child {
+	border-bottom: 0px solid white;
+}
+
+#minimails .title {
+	font-size: 15px;
+	font-weight: bold;
+	color: #0f0f0f;
+	margin-bottom: 3px;
+	letter-spacing: -1px;
+	margin-top: 20px;
+}
+
+#minimails p {
+	font-size: 12px;
+	letter-spacing: -0.5px;
+} 

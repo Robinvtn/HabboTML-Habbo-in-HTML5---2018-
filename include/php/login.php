@@ -21,23 +21,6 @@ if (isset($pseudo,$pass))
   /* Si $pseudo et $pass différents de null */
   if(isset($pseudo,$pass)) 
   {
-    /* Connexion au serveur : dans cet exemple, en local sur le serveur d'évaluation
-    A MODIFIER avec vos valeurs */
-    $hostname = "localhost";
-    $database = "habbo";
-    $username = "root";
-    $password = "";
-    
-    /* Configuration des options de connexion */
-    
-    /* Désactive l'éumlateur de requêtes préparées (hautement recommandé) */
-    $pdo_options[PDO::ATTR_EMULATE_PREPARES] = false;
-    
-    /* Active le mode exception */
-    $pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
-    
-    /* Indique le charset */
-    $pdo_options[PDO::MYSQL_ATTR_INIT_COMMAND] = "SET NAMES utf8";
     
     /* Connexion */
     try
@@ -85,62 +68,21 @@ if (isset($pseudo,$pass))
       else if ($nb_result > 1)
       {
         /* Par sécurité si plusieurs réponses de la requête mais si la table est bien construite on ne devrait jamais rentrer dans cette condition */
-        $message = '<p id="message">Problème de d\'unicité dans la table</p>';
+        $message = '<p id="messageillumina">Une erreur technique est survenue! Merci de contacter le service client.</p>';
       }
       else
       {   /* Le pseudo ou le mot de passe sont incorrect */
-        $message = '<p id="message">Le pseudo ou le mot de passe sont incorrect</p>';
+        $message = '<p id="messageillumina">Le pseudo ou le mot de passe sont incorrects.</p>';
       }
     }
     catch (PDOException $e)
     {
-      $message = '<p id="message">Problème dans la requête de sélection</p>';
+      $message = '<p id="messageillumina">Une erreur technique est survenue! Veuillez réessayer une dernière fois.</p>';
     }	
   }
   else 
   {/*au moins un des deux champs "pseudo" ou "mot de passe" n'a pas été rempli*/
-    $message = '<p id="message">Les champs Pseudo et Mot de passe doivent être remplis.</p>';
+    $message = '<p id="messageillumina">Tous les champs doivent être remplis.</p>';
   }
 }
 ?>
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-	<meta charset="utf-8">
-	<title>Habbo</title>
-	<link rel="icon" type="image/ico" href="assets/images/autres/favion.ico" />
-	<link rel="stylesheet" type="text/css" href="assets/styles/menu.css">
-	<link rel="stylesheet" type="text/css" href="assets/styles/account.css">
-
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	<script src="https://cdn.rawgit.com/ashleighy/emoji.js/master/emoji.js.js"></script>
-	<script src="assets/styles/js/tooltip.js"></script>
-</head>
-<body>
-
-
- <div id="connexion">
-	<div class="box">
-		<div class="top">
-			<p>Se connecter à Habbo</p>
-		</div>
-		<div class="contenair">
-
-			 <form action = "#" method = "post">
-    <input class="mail" placeholder="Pseudonyme" type = "text" name = "pseudo" />
-   <input  class="mdp" placeholder="Mot de passe" type = "password" name = "pass" />
-    <input class="btngo" type = "submit" value = "C'EST PARTI!" id = "valider" />
-    </form>
-
-			<div class="separation"></div>
-			<p>Tu n'as pas de compte Habbo?</p><br><center><a href="join.php" class="inscrip">Rejoins-nous!</a></center>
-		</div>
-	</div>
-</div> 
-
-
-</body>
-</html>

@@ -72,7 +72,7 @@
 			<img id="closenavigateurA" src="assets/images/nav/croix.gif" onmouseover="this.src='assets/images/nav/croixh.gif'" onmouseout="this.src='assets/images/nav/croix.gif'">
 		</div>
 		<div class="choix">
-			<img id="flux" src="assets/img/flux.gif" class="refresh_navarticle">
+			<img id="flux" src="assets/images/nav/flux.gif" class="refresh_navarticle">
 			<a class="refresh_navarticle new choisir" id="ouvrirnavP">Tous les apparts</a>
 			<a class="refresh_navarticle all choisir selected">Mes Appartements</a>
 		</div>

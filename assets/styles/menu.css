@@ -277,14 +277,19 @@ section {
 }
 #barre .menu .choix_A:last-child,
 #barre_dark .menu .choix_A:last-child {
-	border-left: 1px solid rgba(255, 255, 255, 0.1);
+	border-left: 0.5px solid rgba(255, 255, 255, 0.1);
 	padding-right: 10px;
 	margin-right: 10px;
 }
-#barre .menu .choix_A.compte .img,
-#barre_dark .menu .choix_A.compte .img {
+#barre .menu .choix_A:last-child img {
+	cursor: pointer;
 	position: relative;
-	bottom: 20px;
+}
+#barre .menu .choix_A:last-child img:hover {
+	cursor: pointer;
+	top: -2px;
+	left: -2px;
+	position: relative;
 }
 #barre .menu .choix_A ul,
 #barre_dark .menu .choix_A ul {
@@ -302,14 +307,27 @@ section {
 	-webkit-box-shadow: inset 0px 0px 0px 2px #3A3832;
 	-moz-box-shadow: inset 0px 0px 0px 2px #3A3832;
 	box-shadow: inset 0px 0px 0px 2px #3A3832;
-	width: 270px;
+	width: 345px;
 	height: 60px;
 }
+
 #barre .menu .choix_A ul li,
 #barre_dark .menu .choix_A ul li{
 	display: inline-block;
 	min-width: 55px;
+	margin-right: 5px;
 }
+
+#barre .menu .choix_A ul li img,
+#barre_dark .menu .choix_A ul li img {
+	cursor: pointer;
+}
+
+#barre .menu .choix_A ul li:last-child 
+#barre_dark .menu .choix_A ul li:last-child {
+	margin-right: 0px;
+}
+
 #barre .menu .choix_A #sousmenu5,
 #barre_dark .menu .choix_A #sousmenu5 {
 	left: 0;

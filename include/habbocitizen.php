@@ -32,7 +32,7 @@
 
 				<div class="grow-up">
 				<p class="title">Regarde autour de toi</p>
-				<p>Maintenant que tu sais comment rester en sécurité sur Habbo, pourquoi ne pas faire un tour ? On est sûr que tu trouveras quelque chose à ton gpût !</p>
+				<p>Maintenant que tu sais comment rester en sécurité sur Habbo, pourquoi ne pas faire un tour ? On est sûr que tu trouveras quelque chose à ton goût !</p>
 				<div class="habbosecuritygo" id="habbosecuritygo"></div>
 				</div>
 
