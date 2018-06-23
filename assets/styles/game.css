@@ -189,6 +189,14 @@ html {
 	height: 41px;
 	margin-top: -4px;
 }
+.hotel-view-bar-icon-games {
+	background-image: url(../images/hotelview/barIcons/games.png);
+	background-repeat: no-repeat;
+	width: 44px;
+	display: inline-block;
+	height: 41px;
+	margin-top: 2px;
+}
 .hotel-view-bar-icon-user {
 	width: 60px;
 	height: 45px;

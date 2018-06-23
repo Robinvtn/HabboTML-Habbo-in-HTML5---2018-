@@ -7,11 +7,13 @@
 					<span id="ouvrirnavigateur" class="hotel-view-bar-icon-rooms"></span>
 					<span id="ouvrircatalogue" class="hotel-view-bar-icon-catalogue"></span>
 					<span id="ouvririnventaire" class="hotel-view-bar-icon-inventory"></span>
+					<span id="ouvrirgamecenter" class="hotel-view-bar-icon-games"></span>
 				</div>
 
 			<li class="choix_A" style="margin-top: -10px;"><a id="menu1"><img src="<?php echo $avatarhead; ?>" class="masterTooltip" title="Moi"></a>
 				<ul id="sousmenu1">
 					<li class="choix_B"><a id="ouvrirmestalents"><img src="assets/images/menu/talents.png" onmouseover="this.src='assets/images/menu/talents-onclick.png'" onmouseout="this.src='assets/images/menu/talents.png'"></a></li>
+					<li class="choix_B"><a id="ouvrirminimail"><img src="assets/images/menu/minimail.png" onmouseover="this.src='assets/images/menu/minimail-onclick.png'" onmouseout="this.src='assets/images/menu/minimail.png'"></a></li>
 					<li class="choix_B"><a id="ouvrirProfil"><img src="assets/images/menu/profil.png" onmouseover="this.src='assets/images/menu/profil-onclick.png'" onmouseout="this.src='assets/images/menu/profil.png'"></a></li>
 					<li class="choix_B"><a id="ouvrirmesappartements"><img src="assets/images/menu/rooms.png" onmouseover="this.src='assets/images/menu/rooms-onclick.png'" onmouseout="this.src='assets/images/menu/rooms.png'"></a></li>
 					<li class="choix_B"><a id="ouvriravatar"><img src="assets/images/menu/clothes.png" onmouseover="this.src='assets/images/menu/clothes-onclick.png'" onmouseout="this.src='assets/images/menu/clothes.png'"></a></li>

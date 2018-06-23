@@ -151,7 +151,7 @@ body{ background-color: black; }
 	color: #0F678D;
 }
 
-input {
+.left input {
 	border: 1px solid #5D5D5A;
 	border-radius: 8px;
 	padding: 0px 25px 0px 10px;
